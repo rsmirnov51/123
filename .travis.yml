@@ -1,5 +1,2 @@
 language: c++
-script:
-- cmake -H. -B_build -DCMAKE_INSTALL_PREFIX=_install
-- cmake --build _build
-- cmake --build _build --target install
+script: c++ main.cpp
