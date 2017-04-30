@@ -15,7 +15,7 @@ public:
 	neural();
 	vector<double> t, x;
 
-	vector<vector<vector<double> >> w;
+	vector<vector<vector<double> > > w;
 	vector<double> error;
 	vector<vector<double> > outY;
 	double allowableError;
