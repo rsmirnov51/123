@@ -7,3 +7,7 @@ c++:
 
 
 script: c++ BackPropagation/main.cpp
+script: c++ BackPropagation/neural.cpp
+script: c++ BackPropagation/neural.h
+script: c++ BackPropagation/out.cpp
+script: c++ BackPropagation/out.h
