@@ -1,13 +1,13 @@
-language: c++
+language: cpp
 
-c++:
+cpp:
  
 
  - "10"
 
 
-script: c++ BackPropagation/main.cpp
-script: c++ BackPropagation/neural.cpp
-script: c++ BackPropagation/neural.h
-script: c++ BackPropagation/out.cpp
-script: c++ BackPropagation/out.h
+script: cpp BackPropagation/main.cpp
+script: cpp BackPropagation/neural.cpp
+script: cpp BackPropagation/neural.h
+script: cpp BackPropagation/out.cpp
+script: cpp BackPropagation/out.h
