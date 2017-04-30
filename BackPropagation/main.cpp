@@ -1,6 +1,6 @@
 #include <iostream>
-#include <neural.h>
-#include <out.h>
+#include "neural.h"
+#include "out.h"
 using namespace std;
 
 
