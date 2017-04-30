@@ -1,0 +1,7 @@
+language: c++
+script: 
+  c++ 123/main.cpp
+  c++ 123/neural.cpp
+  c++ 123/out.cpp
+  c++ 123/neural.h
+  c++ 123/out.h
