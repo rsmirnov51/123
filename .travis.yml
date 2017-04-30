@@ -1,13 +1,9 @@
 language: c++
 
-
-
 c++:
-
  
 
  - "10"
 
 
-script: 
-  c++ main.cpp
+script: c++ Snake/main.cpp
