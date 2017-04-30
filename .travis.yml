@@ -1,13 +1,9 @@
 language: cpp
+sudo: required
+dist: trusty
 
-cpp:
- 
+os: linux
 
- - "10"
-
-
-script: cpp BackPropagation/main.cpp
-script: cpp BackPropagation/neural.cpp
-script: cpp BackPropagation/neural.h
-script: cpp BackPropagation/out.cpp
-script: cpp BackPropagation/out.h
+script: 
+- cmake -H. -B_build 
+- cmake --build _build
