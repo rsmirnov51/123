@@ -1,2 +1,13 @@
 language: c++
-script: c++ main.cpp
+
+
+
+c++:
+
+ 
+
+ - "10"
+
+
+script: 
+  c++ main.cpp
