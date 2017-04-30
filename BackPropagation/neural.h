@@ -15,9 +15,9 @@ public:
 	neural();
 	vector<double> t, x;
 
-	vector<vector<vector<double>>> w;
+	vector<vector<vector<double> >> w;
 	vector<double> error;
-	vector<vector<double>> outY;
+	vector<vector<double> > outY;
 	double allowableError;
 	int N, M, J, maxEpoch;
 	double eta;
