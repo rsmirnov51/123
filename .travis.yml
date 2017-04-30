@@ -6,4 +6,4 @@ c++:
  - "10"
 
 
-script: c++ Snake/main.cpp
+script: c++ BackPropagation/main.cpp
